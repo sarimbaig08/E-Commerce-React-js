@@ -1,0 +1,13 @@
+.PopularItems {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  /* padding: 50px 10px; */
+  justify-content: center;
+}
+.text-Dark {
+  color: #030303;
+}
+.mt-50 {
+  margin-top: 50px;
+}

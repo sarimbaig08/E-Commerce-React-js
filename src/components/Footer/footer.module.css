@@ -1,0 +1,37 @@
+.footer {
+  height: 250px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.logoDiv,
+.linksWrapper,
+.socialIconsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.linksWrapper {
+  gap: 10px;
+  list-style-type: none;
+}
+.linksWrapper li {
+  cursor: pointer;
+}
+.socialIconsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.socialIconsWrapper svg {
+  cursor: pointer;
+}
+.iconSize {
+  height: 25px;
+  width: 25px;
+}
